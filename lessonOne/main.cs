@@ -37,6 +37,7 @@ var totalTax = sum * taxRate;
 var grandTotal = sum + totalTax;
 
 Console.WriteLine($"Welcome to {storeName}. You have {cart.Count} items in your bag");
+Console.WriteLine($"Welcome to {storeName}. You have {cart.Count} items in your bag");
 Console.WriteLine($"Your total is: {grandTotal}");
 
 
